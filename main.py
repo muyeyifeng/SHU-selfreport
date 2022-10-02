@@ -21,7 +21,7 @@ RETRY_TIMEOUT = 120
 '''
 
 NEED_BEFORE = True  # 如需补报则置为True，否则False
-START_DT = dt.datetime.today() + dt.timedelta(-10)  # 往前补报的天数
+START_DT = dt.datetime.today() + dt.timedelta(-3)  # 往前补报的天数
 RETRY = 5
 RETRY_TIMEOUT = 120
 
